@@ -1,4 +1,13 @@
 module.exports = {
+<<<<<<< HEAD
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+=======
   env: {
     browser: false,
     es6: true,
@@ -24,6 +33,7 @@ module.exports = {
       'error',
       'LabeledStatement',
       'WithStatement',
+>>>>>>> 78677d6855cb514cd76211e4eadd9f494135ef3a
     ],
   },
   overrides:[
