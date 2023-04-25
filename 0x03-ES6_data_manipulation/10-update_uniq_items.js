@@ -4,7 +4,7 @@
  * It should accept a map as an argument.
  * The map it accepts for argument is similar to your previous map.
  * For each entry of map where the quantity is 1, update the quantity to 100.
- * If updating the quantity is not possible (argument is not a map) the 
+ * If updating the quantity is not possible (argument is not a map) the
  * error Cannot process should be thrown.
  */
 export default function updateUniqueItems(map) {
