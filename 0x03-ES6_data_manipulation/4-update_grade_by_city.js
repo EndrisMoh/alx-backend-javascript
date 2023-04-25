@@ -1,7 +1,7 @@
 /**
- * Create a function updateStudentGradeByCity that returns an array of 
+ * Create a function updateStudentGradeByCity that returns an array of
  * students for a specific city with their new grade
- * If a student doesn’t have grade in newGrades, the final grade 
+ * If a student doesn’t have grade in newGrades, the final grade
  * should be N/A. You must use filter and map combined.
  */
 export default function updateStudentGradeByCity(
