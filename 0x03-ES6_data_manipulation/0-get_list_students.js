@@ -1,6 +1,6 @@
 /**
  * Create a function named getListStudents that returns an array of objects.
- * Each object should have three attributes: 
+ * Each object should have three attributes:
  * @returns {{id: Number, firstName: String, location: String}[]}
  */
 export default function getListStudents() {
