@@ -1,3 +1,4 @@
+//Write an interface Teacher
 export interface Teacher {
   readonly firstName: string,
   readonly lastName: string,
@@ -7,10 +8,12 @@ export interface Teacher {
   [index:string]: any,
 }
 
+//Write an interface named Directors that extends Teacher
 export interface Directors extends Teacher {
   numberOfReport: number,
 }
 
+//Write a function printTeacher
 export interface printTeacherFunction {
   (firstName: string, lastName: string): string;
 }
@@ -23,6 +26,7 @@ export interface IStudentClassConstructor {
   new (firstName: string, lastName: string): IStudentClass;
 }
 
+//Write a Class named StudentClass
 export interface IStudentClass {
   workOnHomework(): string;
   displayName(): string;
