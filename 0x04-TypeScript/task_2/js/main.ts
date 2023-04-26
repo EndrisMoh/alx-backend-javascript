@@ -50,6 +50,7 @@ export function createEmployee(salary: (number | string)): (Director | Teacher) 
   return new Director();
 }
 
+//Creating functions specific to employees
 export function isDirector(employee: (Director | Teacher)) {
   return employee instanceof Director;
 }
@@ -61,8 +62,11 @@ export function executeWork(employee: (Director | Teacher)) {
   return (employee as Teacher).workTeacherTasks();
 }
 
+//Write a String literal type named Subjects allowing a variable to have
+//the value Math or History only.
 export type Subjects = ('Math' | 'History');
 
+//Write a function named teachClass
 export function teachClass(todayClass: Subjects): string {
   if (todayClass === 'Math') {
     return 'Teaching Math';
